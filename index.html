@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>音频文件Demo</title>
+    <title>USE Demo</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -62,37 +62,43 @@
             border-radius: 10px;
             box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
         }
+        .image-container h3 {
+            font-size: 1.5em;
+            color: #FFC107;
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>音频文件Demo</h1>
+        <h1>USE Demo</h1>
         <div class="image-container">
-            <img src="media/image9.png" alt="相关图片">
+            <img src="media/image9.png" alt="Spectrogram">
+            <h3>2mix Spectrogram</h3>
         </div>
         <div class="audio-demo">
-            <h2>音频文件1</h2>
+            <h2>Mixture</h2>
             <audio controls>
                 <source src="media/media1.wav" type="audio/mpeg">
-                您的浏览器不支持音频播放。
+                Your browser does not support the audio element.
             </audio>
-            <p>这是音频文件1的描述。</p>
+            <p>Description of the mixture audio file.</p>
         </div>
         <div class="audio-demo">
-            <h2>音频文件2</h2>
+            <h2>Source1</h2>
             <audio controls>
                 <source src="media/media2.wav" type="audio/mpeg">
-                您的浏览器不支持音频播放。
+                Your browser does not support the audio element.
             </audio>
-            <p>这是音频文件2的描述。</p>
+            <p>Description of the first source audio file.</p>
         </div>
         <div class="audio-demo">
-            <h2>音频文件3</h2>
+            <h2>Source2</h2>
             <audio controls>
                 <source src="media/media3.wav" type="audio/mpeg">
-                您的浏览器不支持音频播放。
+                Your browser does not support the audio element.
             </audio>
-            <p>这是音频文件3的描述。</p>
+            <p>Description of the second source audio file.</p>
         </div>
     </div>
 </body>
