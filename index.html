@@ -6,48 +6,70 @@
     <title>音频文件Demo</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            font-size: 16px;
+            line-height: 1.6;
         }
         .container {
             max-width: 800px;
             margin: 20px auto;
             padding: 20px;
-            background: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background: #222222;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
         }
         h1 {
             text-align: center;
             color: #4CAF50;
+            font-size: 2.5em;
+            margin-bottom: 20px;
         }
         .audio-demo {
-            margin-bottom: 20px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #333333;
+            padding-bottom: 20px;
+        }
+        .audio-demo:last-child {
+            border-bottom: none;
         }
         .audio-demo h2 {
             margin-bottom: 10px;
             color: #2196F3;
+            font-size: 1.8em;
         }
         .audio-demo audio {
             width: 100%;
             margin-bottom: 10px;
+            border-radius: 5px;
+            background-color: #333333;
+            border: 1px solid #444444;
         }
         .audio-demo p {
             font-size: 0.9em;
-            color: #666;
+            color: #cccccc;
+            margin-bottom: 20px;
         }
-        .audio-demo img {
-            width: 100%;
-            margin-bottom: 10px;
-            border-radius: 5px;
+        .image-container {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .image-container img {
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>音频文件Demo</h1>
+        <div class="image-container">
+            <img src="media/image9.png" alt="相关图片">
+        </div>
         <div class="audio-demo">
             <h2>音频文件1</h2>
             <audio controls>
@@ -55,7 +77,6 @@
                 您的浏览器不支持音频播放。
             </audio>
             <p>这是音频文件1的描述。</p>
-            <img src="media/image1.png" alt="音频文件1相关图片">
         </div>
         <div class="audio-demo">
             <h2>音频文件2</h2>
@@ -64,7 +85,6 @@
                 您的浏览器不支持音频播放。
             </audio>
             <p>这是音频文件2的描述。</p>
-            <img src="media/image1.png" alt="音频文件2相关图片">
         </div>
         <div class="audio-demo">
             <h2>音频文件3</h2>
@@ -73,9 +93,7 @@
                 您的浏览器不支持音频播放。
             </audio>
             <p>这是音频文件3的描述。</p>
-            <img src="media/image1.png" alt="音频文件3相关图片">
         </div>
-        <!-- 可以根据需要添加更多音频文件 -->
     </div>
 </body>
 </html>
