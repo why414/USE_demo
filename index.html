@@ -9,8 +9,8 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #1a1a1a;
-            color: #ffffff;
+            background-color: #f0f8ff; /* Light blue background */
+            color: #333;
             font-size: 16px;
             line-height: 1.6;
         }
@@ -18,19 +18,19 @@
             max-width: 800px;
             margin: 20px auto;
             padding: 20px;
-            background: #222222;
+            background: #ffffff; /* White background for container */
             border-radius: 10px;
-            box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
         }
         h1 {
             text-align: center;
-            color: #4CAF50;
+            color: #4CAF50; /* Green title */
             font-size: 2.5em;
             margin-bottom: 20px;
         }
         .audio-demo {
             margin-bottom: 30px;
-            border-bottom: 1px solid #333333;
+            border-bottom: 1px solid #ddd;
             padding-bottom: 20px;
         }
         .audio-demo:last-child {
@@ -38,19 +38,19 @@
         }
         .audio-demo h2 {
             margin-bottom: 10px;
-            color: #2196F3;
+            color: #2196F3; /* Blue section titles */
             font-size: 1.8em;
         }
         .audio-demo audio {
             width: 100%;
             margin-bottom: 10px;
             border-radius: 5px;
-            background-color: #333333;
-            border: 1px solid #444444;
+            background-color: #f9f9f9; /* Light grey background for audio player */
+            border: 1px solid #ddd;
         }
         .audio-demo p {
             font-size: 0.9em;
-            color: #cccccc;
+            color: #666;
             margin-bottom: 20px;
         }
         .image-container {
@@ -60,11 +60,11 @@
         .image-container img {
             width: 80%;
             border-radius: 10px;
-            box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
         }
         .image-container h3 {
             font-size: 1.5em;
-            color: #FFC107;
+            color: #FFC107; /* Yellow image title */
             margin-top: 10px;
         }
     </style>
@@ -82,7 +82,6 @@
                 <source src="media/media1.wav" type="audio/mpeg">
                 Your browser does not support the audio element.
             </audio>
-            <p>Description of the mixture audio file.</p>
         </div>
         <div class="audio-demo">
             <h2>Source1</h2>
@@ -90,7 +89,6 @@
                 <source src="media/media2.wav" type="audio/mpeg">
                 Your browser does not support the audio element.
             </audio>
-            <p>Description of the first source audio file.</p>
         </div>
         <div class="audio-demo">
             <h2>Source2</h2>
@@ -98,7 +96,6 @@
                 <source src="media/media3.wav" type="audio/mpeg">
                 Your browser does not support the audio element.
             </audio>
-            <p>Description of the second source audio file.</p>
         </div>
     </div>
 </body>
